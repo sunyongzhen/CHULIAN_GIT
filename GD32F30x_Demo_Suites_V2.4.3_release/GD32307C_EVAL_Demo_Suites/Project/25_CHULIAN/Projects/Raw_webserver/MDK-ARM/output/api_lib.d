@@ -1,0 +1,9 @@
+.\output\api_lib.o: ..\..\..\Third_party\lwip-1.4.1\src\api\api_lib.c
+.\output\api_lib.o: ..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h
+.\output\api_lib.o: ..\inc\lwipopts.h
+.\output\api_lib.o: ..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h
+.\output\api_lib.o: ..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h
+.\output\api_lib.o: ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h
+.\output\api_lib.o: ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h
+.\output\api_lib.o: ..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h
+.\output\api_lib.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

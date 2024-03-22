@@ -1,0 +1,11 @@
+.\output\mqttpacket.o: ..\src\MQTT\MQTTPacket.c
+.\output\mqttpacket.o: ..\src\MQTT\StackTrace.h
+.\output\mqttpacket.o: E:\keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\mqttpacket.o: ..\src\MQTT\MQTTPacket.h
+.\output\mqttpacket.o: ..\src\MQTT\MQTTConnect.h
+.\output\mqttpacket.o: ..\src\MQTT\MQTTPublish.h
+.\output\mqttpacket.o: ..\src\MQTT\MQTTSubscribe.h
+.\output\mqttpacket.o: ..\src\MQTT\MQTTUnsubscribe.h
+.\output\mqttpacket.o: ..\src\MQTT\MQTTFormat.h
+.\output\mqttpacket.o: ..\src\MQTT\MQTTPacket.h
+.\output\mqttpacket.o: E:\keil_v5\ARM\ARMCC\Bin\..\include\string.h

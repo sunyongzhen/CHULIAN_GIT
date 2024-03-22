@@ -1,0 +1,9 @@
+.\output\netifapi.o: ..\..\..\Third_party\lwip-1.4.1\src\api\netifapi.c
+.\output\netifapi.o: ..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h
+.\output\netifapi.o: ..\inc\lwipopts.h
+.\output\netifapi.o: ..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h
+.\output\netifapi.o: ..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h
+.\output\netifapi.o: ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h
+.\output\netifapi.o: ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h
+.\output\netifapi.o: ..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h
+.\output\netifapi.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

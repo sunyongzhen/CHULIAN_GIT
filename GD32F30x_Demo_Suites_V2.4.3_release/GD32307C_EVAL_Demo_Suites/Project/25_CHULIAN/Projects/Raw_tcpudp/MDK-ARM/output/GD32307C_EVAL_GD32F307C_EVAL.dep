@@ -1,0 +1,1502 @@
+Dependencies for Project 'GD32307C_EVAL', Target 'GD32F307C_EVAL': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (..\src\main.c)(0x65B7853E)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\main.o --omf_browse .\output\main.crf --depend .\output\main.d)
+I (..\inc\gd32f30x.h)(0x63B4E828)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\inc\system_gd32f30x.h)(0x63B4E828)
+I (..\inc\gd32f30x_libopt.h)(0x63B4E828)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x65AE060F)
+I (..\inc\netconf.h)(0x63B4E828)
+I (..\inc\main.h)(0x65B77126)
+I (..\inc\gd32f30x_enet_eval.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip\netif.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/err.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/def.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/pbuf.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/tcp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/mem.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/icmp.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/lwip_timers.h)(0x63B4E82B)
+I (..\..\..\..\..\Utilities\gd32f307c_eval.h)(0x65B392A0)
+I (..\inc\hello_gigadevice.h)(0x63B4E828)
+I (..\inc\udp_echo.h)(0x63B4E828)
+I (..\inc\tcp_client.h)(0x63B4E828)
+F (..\src\netconf.c)(0x63B4E828)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\netconf.o --omf_browse .\output\netconf.crf --depend .\output\netconf.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/mem.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp_std.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/tcp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/pbuf.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/err.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/def.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/netif.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/icmp.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/udp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\netif/etharp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/dhcp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic\ethernetif.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\inc\main.h)(0x65B77126)
+I (..\inc\gd32f30x.h)(0x63B4E828)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\inc\system_gd32f30x.h)(0x63B4E828)
+I (..\inc\gd32f30x_libopt.h)(0x63B4E828)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x65AE060F)
+I (..\inc\gd32f30x_enet_eval.h)(0x63B4E828)
+I (..\inc\netconf.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip\tcp_impl.h)(0x63B4E82B)
+F (..\src\hello_gigadevice.c)(0x63B4E828)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\hello_gigadevice.o --omf_browse .\output\hello_gigadevice.crf --depend .\output\hello_gigadevice.d)
+I (..\inc\hello_gigadevice.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/tcp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/mem.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/pbuf.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/err.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/def.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/netif.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/icmp.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
+I (..\inc\gd32f30x.h)(0x63B4E828)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\inc\system_gd32f30x.h)(0x63B4E828)
+I (..\inc\gd32f30x_libopt.h)(0x63B4E828)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x65AE060F)
+F (..\src\tcp_client.c)(0x63B4E828)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\tcp_client.o --omf_browse .\output\tcp_client.crf --depend .\output\tcp_client.d)
+I (..\inc\tcp_client.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/tcp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/mem.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/pbuf.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/err.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/def.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/netif.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/icmp.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp_std.h)(0x63B4E82B)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
+I (..\inc\gd32f30x.h)(0x63B4E828)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\inc\system_gd32f30x.h)(0x63B4E828)
+I (..\inc\gd32f30x_libopt.h)(0x63B4E828)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x65AE060F)
+I (..\inc\main.h)(0x65B77126)
+I (..\inc\gd32f30x_enet_eval.h)(0x63B4E828)
+F (..\src\udp_echo.c)(0x63B4E828)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\udp_echo.o --omf_browse .\output\udp_echo.crf --depend .\output\udp_echo.d)
+I (..\inc\udp_echo.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/udp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/pbuf.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/err.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/netif.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/def.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
+I (..\inc\gd32f30x.h)(0x63B4E828)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\inc\system_gd32f30x.h)(0x63B4E828)
+I (..\inc\gd32f30x_libopt.h)(0x63B4E828)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x65AE060F)
+F (..\src\gd32f30x_enet_eval.c)(0x65B7713A)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\gd32f30x_enet_eval.o --omf_browse .\output\gd32f30x_enet_eval.crf --depend .\output\gd32f30x_enet_eval.d)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x65AE060F)
+I (..\inc\gd32f30x.h)(0x63B4E828)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\inc\system_gd32f30x.h)(0x63B4E828)
+I (..\inc\gd32f30x_libopt.h)(0x63B4E828)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (..\inc\gd32f30x_enet_eval.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip\netif.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/err.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/def.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/pbuf.h)(0x63B4E82B)
+I (..\inc\main.h)(0x65B77126)
+F (..\src\gd32f30x_it.c)(0x63B4E828)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\gd32f30x_it.o --omf_browse .\output\gd32f30x_it.crf --depend .\output\gd32f30x_it.d)
+I (..\inc\gd32f30x.h)(0x63B4E828)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\inc\system_gd32f30x.h)(0x63B4E828)
+I (..\inc\gd32f30x_libopt.h)(0x63B4E828)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x65AE060F)
+I (..\inc\gd32f30x_it.h)(0x63B4E828)
+I (..\inc\main.h)(0x65B77126)
+I (..\inc\gd32f30x_enet_eval.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip\netif.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/err.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/def.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/pbuf.h)(0x63B4E82B)
+I (..\inc\tcp_client.h)(0x63B4E828)
+F (..\src\system_gd32f30x.c)(0x63B4E828)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\system_gd32f30x.o --omf_browse .\output\system_gd32f30x.crf --depend .\output\system_gd32f30x.d)
+I (..\inc\gd32f30x.h)(0x63B4E828)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\inc\system_gd32f30x.h)(0x63B4E828)
+I (..\inc\gd32f30x_libopt.h)(0x63B4E828)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x65AE060F)
+F (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_dma.c)(0x63B4E838)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\gd32f30x_dma.o --omf_browse .\output\gd32f30x_dma.crf --depend .\output\gd32f30x_dma.d)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\inc\gd32f30x.h)(0x63B4E828)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\inc\system_gd32f30x.h)(0x63B4E828)
+I (..\inc\gd32f30x_libopt.h)(0x63B4E828)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x65AE060F)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+F (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_enet.c)(0x65B76FC8)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\gd32f30x_enet.o --omf_browse .\output\gd32f30x_enet.crf --depend .\output\gd32f30x_enet.d)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x65AE060F)
+I (..\inc\gd32f30x.h)(0x63B4E828)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\inc\system_gd32f30x.h)(0x63B4E828)
+I (..\inc\gd32f30x_libopt.h)(0x63B4E828)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+F (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_exti.c)(0x63B4E838)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\gd32f30x_exti.o --omf_browse .\output\gd32f30x_exti.crf --depend .\output\gd32f30x_exti.d)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\inc\gd32f30x.h)(0x63B4E828)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\inc\system_gd32f30x.h)(0x63B4E828)
+I (..\inc\gd32f30x_libopt.h)(0x63B4E828)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x65AE060F)
+F (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_gpio.c)(0x63B4E838)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\gd32f30x_gpio.o --omf_browse .\output\gd32f30x_gpio.crf --depend .\output\gd32f30x_gpio.d)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\inc\gd32f30x.h)(0x63B4E828)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\inc\system_gd32f30x.h)(0x63B4E828)
+I (..\inc\gd32f30x_libopt.h)(0x63B4E828)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x65AE060F)
+F (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_i2c.c)(0x63B4E838)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\gd32f30x_i2c.o --omf_browse .\output\gd32f30x_i2c.crf --depend .\output\gd32f30x_i2c.d)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\inc\gd32f30x.h)(0x63B4E828)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\inc\system_gd32f30x.h)(0x63B4E828)
+I (..\inc\gd32f30x_libopt.h)(0x63B4E828)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x65AE060F)
+F (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_misc.c)(0x63B4E838)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\gd32f30x_misc.o --omf_browse .\output\gd32f30x_misc.crf --depend .\output\gd32f30x_misc.d)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\inc\gd32f30x.h)(0x63B4E828)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\inc\system_gd32f30x.h)(0x63B4E828)
+I (..\inc\gd32f30x_libopt.h)(0x63B4E828)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x65AE060F)
+F (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_pmu.c)(0x63B4E838)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\gd32f30x_pmu.o --omf_browse .\output\gd32f30x_pmu.crf --depend .\output\gd32f30x_pmu.d)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\inc\gd32f30x.h)(0x63B4E828)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\inc\system_gd32f30x.h)(0x63B4E828)
+I (..\inc\gd32f30x_libopt.h)(0x63B4E828)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x65AE060F)
+F (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_rtc.c)(0x63B4E838)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\gd32f30x_rtc.o --omf_browse .\output\gd32f30x_rtc.crf --depend .\output\gd32f30x_rtc.d)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\inc\gd32f30x.h)(0x63B4E828)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\inc\system_gd32f30x.h)(0x63B4E828)
+I (..\inc\gd32f30x_libopt.h)(0x63B4E828)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x65AE060F)
+F (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_sdio.c)(0x63B4E838)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\gd32f30x_sdio.o --omf_browse .\output\gd32f30x_sdio.crf --depend .\output\gd32f30x_sdio.d)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\inc\gd32f30x.h)(0x63B4E828)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\inc\system_gd32f30x.h)(0x63B4E828)
+I (..\inc\gd32f30x_libopt.h)(0x63B4E828)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x65AE060F)
+F (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_spi.c)(0x63B4E838)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\gd32f30x_spi.o --omf_browse .\output\gd32f30x_spi.crf --depend .\output\gd32f30x_spi.d)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x63B4E838)
+I (..\inc\gd32f30x.h)(0x63B4E828)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\inc\system_gd32f30x.h)(0x63B4E828)
+I (..\inc\gd32f30x_libopt.h)(0x63B4E828)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x65AE060F)
+F (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_usart.c)(0x63B4E838)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\gd32f30x_usart.o --omf_browse .\output\gd32f30x_usart.crf --depend .\output\gd32f30x_usart.d)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\inc\gd32f30x.h)(0x63B4E828)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\inc\system_gd32f30x.h)(0x63B4E828)
+I (..\inc\gd32f30x_libopt.h)(0x63B4E828)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x65AE060F)
+F (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_wwdgt.c)(0x63B4E838)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\gd32f30x_wwdgt.o --omf_browse .\output\gd32f30x_wwdgt.crf --depend .\output\gd32f30x_wwdgt.d)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\inc\gd32f30x.h)(0x63B4E828)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\inc\system_gd32f30x.h)(0x63B4E828)
+I (..\inc\gd32f30x_libopt.h)(0x63B4E828)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x65AE060F)
+F (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_rcu.c)(0x63B4E838)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\gd32f30x_rcu.o --omf_browse .\output\gd32f30x_rcu.crf --depend .\output\gd32f30x_rcu.d)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\inc\gd32f30x.h)(0x63B4E828)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\inc\system_gd32f30x.h)(0x63B4E828)
+I (..\inc\gd32f30x_libopt.h)(0x63B4E828)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x65AE060F)
+F (..\..\..\..\..\Utilities\gd32f307c_eval.c)(0x65B75B80)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\gd32f307c_eval.o --omf_browse .\output\gd32f307c_eval.crf --depend .\output\gd32f307c_eval.d)
+I (..\inc\gd32f30x.h)(0x63B4E828)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\inc\system_gd32f30x.h)(0x63B4E828)
+I (..\inc\gd32f30x_libopt.h)(0x63B4E828)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x65AE060F)
+I (..\..\..\..\..\Utilities\gd32f307c_eval.h)(0x65B392A0)
+F (..\..\..\..\..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM\startup_gd32f30x_cl.s)(0x63B4E83A)(--cpu Cortex-M4.fp.sp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include--pd "__UVISION_VERSION SETA 530" --pd "_RTE_ SETA 1" --pd "GD32F30X_CL SETA 1" --pd "_RTE_ SETA 1"--list .\list\startup_gd32f30x_cl.lst --xref -o .\output\startup_gd32f30x_cl.o --depend .\output\startup_gd32f30x_cl.d)
+F (..\..\..\Third_party\lwip-1.4.1\src\core\def.c)(0x63B4E82C)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\def.o --omf_browse .\output\def.crf --depend .\output\def.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/def.h)(0x63B4E82B)
+F (..\..\..\Third_party\lwip-1.4.1\src\core\dhcp.c)(0x63B4E82C)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\dhcp.o --omf_browse .\output\dhcp.crf --depend .\output\dhcp.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/stats.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/mem.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp_std.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/udp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/pbuf.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/err.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/netif.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/def.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/dhcp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/autoip.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/dns.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\netif/etharp.h)(0x63B4E82B)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
+F (..\..\..\Third_party\lwip-1.4.1\src\core\dns.c)(0x63B4E82C)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\dns.o --omf_browse .\output\dns.crf --depend .\output\dns.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+F (..\..\..\Third_party\lwip-1.4.1\src\core\init.c)(0x63B4E82C)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\init.o --omf_browse .\output\init.crf --depend .\output\init.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/init.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/stats.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/mem.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp_std.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/sys.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/pbuf.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/err.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/netif.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/def.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/sockets.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/raw.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/udp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/tcp_impl.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/tcp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/icmp.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/snmp_msg.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/snmp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/snmp_structs.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/autoip.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/igmp.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/dns.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/lwip_timers.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\netif/etharp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/api.h)(0x63B4E82B)
+F (..\..\..\Third_party\lwip-1.4.1\src\core\lwip_timers.c)(0x63B4E82C)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\lwip_timers.o --omf_browse .\output\lwip_timers.crf --depend .\output\lwip_timers.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/lwip_timers.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/err.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/tcp_impl.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/tcp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/mem.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/pbuf.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/def.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/netif.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/icmp.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp_std.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/tcpip.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip_frag.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\netif/etharp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/dhcp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/udp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/autoip.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/igmp.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/dns.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/sys.h)(0x63B4E82B)
+F (..\..\..\Third_party\lwip-1.4.1\src\core\mem.c)(0x63B4E82C)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\mem.o --omf_browse .\output\mem.crf --depend .\output\mem.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/def.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/mem.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/sys.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/stats.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp_std.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/err.h)(0x63B4E82B)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
+F (..\..\..\Third_party\lwip-1.4.1\src\core\memp.c)(0x63B4E82C)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\memp.o --omf_browse .\output\memp.crf --depend .\output\memp.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp_std.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/pbuf.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/err.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/udp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/netif.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/def.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/raw.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/tcp_impl.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/tcp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/mem.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/icmp.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/igmp.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/api.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/api_msg.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/tcpip.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/sys.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/lwip_timers.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/stats.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\netif/etharp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip_frag.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/snmp_structs.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/snmp_msg.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/snmp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/dns.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\netif/ppp_oe.h)(0x63B4E82B)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
+F (..\..\..\Third_party\lwip-1.4.1\src\core\netif.c)(0x63B4E82C)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\netif.o --omf_browse .\output\netif.crf --depend .\output\netif.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/def.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/netif.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/err.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/pbuf.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/tcp_impl.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/tcp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/mem.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/icmp.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/snmp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/igmp.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\netif/etharp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/stats.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp_std.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/dhcp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/udp.h)(0x63B4E82B)
+F (..\..\..\Third_party\lwip-1.4.1\src\core\pbuf.c)(0x63B4E82C)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\pbuf.o --omf_browse .\output\pbuf.crf --depend .\output\pbuf.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/stats.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/mem.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp_std.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/def.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/pbuf.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/err.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/sys.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/perf.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
+F (..\..\..\Third_party\lwip-1.4.1\src\core\raw.c)(0x63B4E82C)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\raw.o --omf_browse .\output\raw.crf --depend .\output\raw.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/def.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp_std.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/netif.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/err.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/pbuf.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/raw.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/stats.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/mem.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/perf.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
+F (..\..\..\Third_party\lwip-1.4.1\src\core\stats.c)(0x63B4E82C)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\stats.o --omf_browse .\output\stats.crf --depend .\output\stats.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+F (..\..\..\Third_party\lwip-1.4.1\src\core\sys.c)(0x63B4E82C)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\sys.o --omf_browse .\output\sys.crf --depend .\output\sys.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/sys.h)(0x63B4E82B)
+F (..\..\..\Third_party\lwip-1.4.1\src\core\tcp.c)(0x63B4E82C)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\tcp.o --omf_browse .\output\tcp.crf --depend .\output\tcp.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/def.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/mem.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp_std.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/snmp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/tcp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/pbuf.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/err.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/netif.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/icmp.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/tcp_impl.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/stats.h)(0x63B4E82B)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
+F (..\..\..\Third_party\lwip-1.4.1\src\core\tcp_in.c)(0x63B4E82C)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\tcp_in.o --omf_browse .\output\tcp_in.crf --depend .\output\tcp_in.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/tcp_impl.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/tcp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/mem.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/pbuf.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/err.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/def.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/netif.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/icmp.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp_std.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/inet_chksum.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/stats.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/snmp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/perf.h)(0x63B4E82A)
+F (..\..\..\Third_party\lwip-1.4.1\src\core\tcp_out.c)(0x63B4E82C)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\tcp_out.o --omf_browse .\output\tcp_out.crf --depend .\output\tcp_out.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/tcp_impl.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/tcp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/mem.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/pbuf.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/err.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/def.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/netif.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/icmp.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp_std.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/inet_chksum.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/stats.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/snmp.h)(0x63B4E82B)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
+F (..\..\..\Third_party\lwip-1.4.1\src\core\udp.c)(0x63B4E82C)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\udp.o --omf_browse .\output\udp.crf --depend .\output\udp.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/udp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/pbuf.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/err.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/netif.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/def.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp_std.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/inet_chksum.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/icmp.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/stats.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/mem.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/snmp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/perf.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/dhcp.h)(0x63B4E82B)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
+F (..\..\..\Third_party\lwip-1.4.1\src\core\ipv4\autoip.c)(0x63B4E82B)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\autoip.o --omf_browse .\output\autoip.crf --depend .\output\autoip.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+F (..\..\..\Third_party\lwip-1.4.1\src\core\ipv4\icmp.c)(0x63B4E82B)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\icmp.o --omf_browse .\output\icmp.crf --depend .\output\icmp.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/icmp.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/pbuf.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/err.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/def.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/netif.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/inet_chksum.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/stats.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/mem.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp_std.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/snmp.h)(0x63B4E82B)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
+F (..\..\..\Third_party\lwip-1.4.1\src\core\ipv4\igmp.c)(0x63B4E82B)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\igmp.o --omf_browse .\output\igmp.crf --depend .\output\igmp.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+F (..\..\..\Third_party\lwip-1.4.1\src\core\ipv4\inet.c)(0x63B4E82B)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\inet.o --omf_browse .\output\inet.crf --depend .\output\inet.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/inet.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/def.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x63B4E82A)
+F (..\..\..\Third_party\lwip-1.4.1\src\core\ipv4\inet_chksum.c)(0x63B4E82B)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\inet_chksum.o --omf_browse .\output\inet_chksum.crf --depend .\output\inet_chksum.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/inet_chksum.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/pbuf.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/err.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/def.h)(0x63B4E82B)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
+F (..\..\..\Third_party\lwip-1.4.1\src\core\ipv4\ip.c)(0x63B4E82B)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\ip.o --omf_browse .\output\ip.crf --depend .\output\ip.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/def.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/pbuf.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/err.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/netif.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/mem.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip_frag.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/inet_chksum.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/icmp.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/igmp.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/raw.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/udp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/tcp_impl.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/tcp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/snmp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/dhcp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/autoip.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/stats.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp_std.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/perf.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
+F (..\..\..\Third_party\lwip-1.4.1\src\core\ipv4\ip_addr.c)(0x63B4E82B)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\ip_addr.o --omf_browse .\output\ip_addr.crf --depend .\output\ip_addr.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/def.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/netif.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/err.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/pbuf.h)(0x63B4E82B)
+F (..\..\..\Third_party\lwip-1.4.1\src\core\ipv4\ip_frag.c)(0x63B4E82B)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\ip_frag.o --omf_browse .\output\ip_frag.crf --depend .\output\ip_frag.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip_frag.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/err.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/pbuf.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/netif.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/def.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/inet_chksum.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/snmp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/stats.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/mem.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp_std.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/icmp.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
+F (..\..\..\Third_party\lwip-1.4.1\src\api\api_lib.c)(0x63B4E82C)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\api_lib.o --omf_browse .\output\api_lib.crf --depend .\output\api_lib.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+F (..\..\..\Third_party\lwip-1.4.1\src\api\api_msg.c)(0x63B4E82C)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\api_msg.o --omf_browse .\output\api_msg.crf --depend .\output\api_msg.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+F (..\..\..\Third_party\lwip-1.4.1\src\api\err.c)(0x63B4E82C)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\err.o --omf_browse .\output\err.crf --depend .\output\err.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/err.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+F (..\..\..\Third_party\lwip-1.4.1\src\api\netbuf.c)(0x63B4E82C)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\netbuf.o --omf_browse .\output\netbuf.crf --depend .\output\netbuf.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+F (..\..\..\Third_party\lwip-1.4.1\src\api\netdb.c)(0x63B4E82C)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\netdb.o --omf_browse .\output\netdb.crf --depend .\output\netdb.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/netdb.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+F (..\..\..\Third_party\lwip-1.4.1\src\api\netifapi.c)(0x63B4E82C)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\netifapi.o --omf_browse .\output\netifapi.crf --depend .\output\netifapi.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+F (..\..\..\Third_party\lwip-1.4.1\src\api\sockets.c)(0x63B4E82C)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\sockets.o --omf_browse .\output\sockets.crf --depend .\output\sockets.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+F (..\..\..\Third_party\lwip-1.4.1\src\api\tcpip.c)(0x63B4E82C)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\tcpip.o --omf_browse .\output\tcpip.crf --depend .\output\tcpip.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+F (..\..\..\Third_party\lwip-1.4.1\src\netif\etharp.c)(0x63B4E82B)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\etharp.o --omf_browse .\output\etharp.crf --depend .\output\etharp.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/def.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/pbuf.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/err.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/netif.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/stats.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/mem.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/memp_std.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/snmp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/dhcp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/udp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/autoip.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\netif/etharp.h)(0x63B4E82B)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
+F (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic\ethernetif.c)(0x63B4E82A)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\..\..\..\Utilities -I ..\inc -I ..\..\..\Third_party\lwip-1.4.1\src\include -I ..\..\..\Third_party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\Third_party\lwip-1.4.1\src\include\netif -I ..\..\..\Third_party\lwip-1.4.1\src\include\lwip -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x -I ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic-I.\RTE\_GD32F307C_EVAL-IC:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\12421\AppData\Local\Arm\Packs\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F30X_CL -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F30X_CL -D__FPU_PRESENT-o .\output\ethernetif.o --omf_browse .\output\ethernetif.crf --depend .\output\ethernetif.d)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/mem.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h)(0x63B4E82B)
+I (..\inc\lwipopts.h)(0x63B4E828)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h)(0x63B4E82A)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\netif/etharp.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/pbuf.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/err.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/def.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\lwip/netif.h)(0x63B4E82B)
+I (..\..\..\Third_party\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x63B4E82A)
+I (..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\Basic\ethernetif.h)(0x63B4E82A)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x65AE060F)
+I (..\inc\gd32f30x.h)(0x63B4E828)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\12421\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\inc\system_gd32f30x.h)(0x63B4E828)
+I (..\inc\gd32f30x_libopt.h)(0x63B4E828)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\..\..\..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (..\inc\main.h)(0x65B77126)
+I (..\inc\gd32f30x_enet_eval.h)(0x63B4E828)
+I (D:\ARM\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53505C)
+F (..\readme.txt)(0x63B4E828)()

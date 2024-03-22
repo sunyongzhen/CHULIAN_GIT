@@ -1,0 +1,51 @@
+TE944 000:004.115   SEGGER J-Link V6.70e Log File
+TE944 000:004.224   DLL Compiled: Apr 17 2020 17:55:05
+TE944 000:004.229   Logging started @ 2024-02-01 04:08
+TE944 000:004.234 JLINK_SetWarnOutHandler(...)
+TE944 000:004.240 - 0.008ms
+TE944 000:004.247 JLINK_OpenEx(...)
+TE944 000:006.100   Firmware: J-Link V9 compiled Dec 13 2019 11:14:50
+TE944 000:006.343   Decompressing FW timestamp took 112 us
+TE944 000:014.054   Hardware: V9.20
+TE944 000:014.078   S/N: 86802734
+TE944 000:014.085   OEM: SEGGER
+TE944 000:014.091   Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash
+TE944 000:015.586   TELNET listener socket opened on port 19021
+TE944 000:015.675   WEBSRV Starting webserver
+TE944 000:015.820   WEBSRV Webserver running on local port 19080
+TE944 000:015.831 - 11.587ms returns "O.K."
+TE944 000:015.849 JLINK_GetEmuCaps()
+TE944 000:015.855 - 0.008ms returns 0xB9FF7BBF
+TE944 000:015.864 JLINK_TIF_GetAvailable(...)
+TE944 000:016.130 - 0.275ms
+TE944 000:016.147 JLINK_SetErrorOutHandler(...)
+TE944 000:016.151 - 0.006ms
+TE944 000:016.168 JLINK_ExecCommand("ProjectFile = "E:\WorkSpace\18-chulian\GD32F30x_Demo_Suites_V2.4.3_release\GD32307C_EVAL_Demo_Suites\Project\25_CHULIAN\Projects\FreeRTOS_tcpudp\MDK-ARM\JLinkSettings.ini"", ...). 
+TE944 000:022.238 - 6.089ms returns 0x00
+TE944 000:024.445 JLINK_ExecCommand("Device = GD32F307VC", ...). 
+TE944 000:026.954   Device "GD32F307VC" selected.
+TE944 000:027.269 - 2.813ms returns 0x00
+TE944 000:027.281 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+TE944 000:027.290 - 0.005ms returns 0x01
+TE944 000:027.296 JLINK_GetHardwareVersion()
+TE944 000:027.301 - 0.006ms returns 0x16760
+TE944 000:027.306 JLINK_GetDLLVersion()  returns 67005
+TE944 000:027.316 JLINK_GetFirmwareString(...)
+TE944 000:027.321 - 0.006ms
+TE944 000:033.021 JLINK_GetDLLVersion()  returns 67005
+TE944 000:033.035 JLINK_GetCompileDateTime()
+TE944 000:033.039 - 0.006ms
+TE944 000:034.774 JLINK_GetFirmwareString(...)
+TE944 000:034.783 - 0.011ms
+TE944 000:036.442 JLINK_GetHardwareVersion()
+TE944 000:036.450 - 0.010ms returns 0x16760
+TE944 000:042.997 JLINK_TIF_Select(JLINKARM_TIF_JTAG)
+TE944 000:045.439 - 2.450ms returns 0x00
+TE944 000:045.462 JLINK_SetSpeed(500)
+TE944 000:045.611 - 0.157ms
+TE944 000:045.625 JLINK_GetIdData(pIdData)
+TE944 000:045.881 - 0.259ms
+TE944 008:116.908 JLINK_Close()
+TE944 008:126.822 - 9.934ms
+TE944 008:126.845   
+TE944 008:126.850   Closed

@@ -1,0 +1,10 @@
+.\output\err.o: ..\..\..\Third_party\lwip-1.4.1\src\api\err.c
+.\output\err.o: ..\..\..\Third_party\lwip-1.4.1\src\include\lwip/err.h
+.\output\err.o: ..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h
+.\output\err.o: ..\inc\lwipopts.h
+.\output\err.o: ..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h
+.\output\err.o: ..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h
+.\output\err.o: ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h
+.\output\err.o: ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h
+.\output\err.o: ..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h
+.\output\err.o: D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h

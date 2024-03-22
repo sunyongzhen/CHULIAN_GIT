@@ -1,0 +1,15 @@
+.\output\fs.o: ..\src\fs.c
+.\output\fs.o: ..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h
+.\output\fs.o: ..\inc\lwipopts.h
+.\output\fs.o: ..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h
+.\output\fs.o: ..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h
+.\output\fs.o: ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h
+.\output\fs.o: ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h
+.\output\fs.o: ..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h
+.\output\fs.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\fs.o: ..\..\..\Third_party\lwip-1.4.1\src\include\lwip/def.h
+.\output\fs.o: ..\inc\fs.h
+.\output\fs.o: ..\..\..\Third_party\lwip-1.4.1\src\include\lwip/err.h
+.\output\fs.o: ..\inc\fsdata.h
+.\output\fs.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\fs.o: ..\src\fsdata.c
