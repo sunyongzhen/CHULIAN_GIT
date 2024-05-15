@@ -299,6 +299,7 @@ static void rs485net_task(void *arg)
 							// edit by heyt 20240305 end ------------
                         case 0x03: // pir
                             // TODO:display pir value
+							printf("PIR DATA: %d\n", ((ModbusRtuFrameAck *)rdata)->data[1]);
                             if (((ModbusRtuFrameAck *)rdata)->data[1] == 1)
                             { // 有人，清空离人时间
                                 heartbeat_reportdata.heart_data.body_detector.leave_time_stamp = 0;

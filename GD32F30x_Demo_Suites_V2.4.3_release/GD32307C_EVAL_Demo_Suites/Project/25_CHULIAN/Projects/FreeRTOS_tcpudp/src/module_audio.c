@@ -274,7 +274,7 @@ static void es8311_standby()
 
 static void es8311_powerdown()
 {
-	printf("es8311_powerdown\n");
+	//printf("es8311_powerdown\n");
     codec_register_write_byte(ES8311_DAC_REG32, 0x00);
     codec_register_write_byte(ES8311_ADC_REG17, 0x00);
     codec_register_write_byte(ES8311_SYSTEM_REG0E, 0xFF);
@@ -314,11 +314,11 @@ static void es8311_mute(void)
 {
 
     spk_mute_set(MUTE);
-	printf("spk_mute_set\n");
+	//printf("spk_mute_set\n");
     es8311_powerdown();
-	printf("es8311_powerdown\n");
+	//printf("es8311_powerdown\n");
     spi_i2s_interrupt_disable(SPI2, SPI_I2S_INT_TBE);
-	printf("spi_i2s_interrupt_disable\n");
+	//printf("spi_i2s_interrupt_disable\n");
 	buf1_read_enable = 0;
 	buf2_read_enable = 0;
 }
@@ -338,7 +338,7 @@ int audio_process_cmd(int cmd_id, int * param, int paramLen)
 {
     // 0:audiomute, 1:audioplay, 2:audiostandby, 3:setvolume, 4:beepset, 5:beepreset
 	
-	printf("cmd_id = %d\n", cmd_id);
+	//printf("cmd_id = %d\n", cmd_id);
     switch (cmd_id) {
     case 0: es8311_mute();              break;
 

@@ -1,0 +1,9 @@
+.\output\tcpip.o: ..\..\..\Third_party\lwip-1.4.1\src\api\tcpip.c
+.\output\tcpip.o: ..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h
+.\output\tcpip.o: ..\inc\lwipopts.h
+.\output\tcpip.o: ..\..\..\Third_party\lwip-1.4.1\src\include\lwip/debug.h
+.\output\tcpip.o: ..\..\..\Third_party\lwip-1.4.1\src\include\lwip/arch.h
+.\output\tcpip.o: ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/cc.h
+.\output\tcpip.o: ..\..\..\Third_party\lwip-1.4.1\port\GD32F30x\arch/lwip_cpu.h
+.\output\tcpip.o: ..\..\..\Third_party\lwip-1.4.1\src\include\lwip/opt.h
+.\output\tcpip.o: D:\ARM\Keil_v5\ARM\ARMCC\include\stdio.h
