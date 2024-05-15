@@ -1,0 +1,4386 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3743166169</fileChecksum>
+  <configuration>
+    <name>GD32F30X_CL</name>
+    <outputs>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_fmc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_dma.c</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_fmc.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_fmc.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_pmu.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_dac.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\startup_gd32f450.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_enet.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_usart.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\systick.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_wwdgt.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_dci.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_it.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_ctc.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_fmc.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_crc.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_trng.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_can.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_tli.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_adc.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f450i_eval.pbi</file>
+      <file>$PROJ_DIR$\..\..\Firmware\CMSIS\core_cm4_simd.h</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\system_gd32f4xx.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_rtc.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_dma.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_exmc.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_timer.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_dma.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_enet.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_eval.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\main.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_dbg.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_wwdgt.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_ctc.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_bkp.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_exti.c</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_timer.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_usart.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_wwdgt.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_adc.pbi</file>
+      <file>$PROJ_DIR$\..\..\Utilities\gd32f307c_eval.h</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f307c_eval.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f307c_eval.o</file>
+      <file>$PROJ_DIR$\..\..\Firmware\CMSIS\core_cm4.h</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_spi.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_adc.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_spi.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_sdio.o</file>
+      <file>$PROJ_DIR$\..\systick.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_exmc.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_iref.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_misc.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\systick.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_dbg.o</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Lib\IAR\iar_cortexM4l_math.a</file>
+      <file>$PROJ_DIR$\..\..\Firmware\CMSIS\GD\GD32F30x\Source\IAR\startup_gd32f30x_md.s</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_enet.o</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_dac.o</file>
+      <file>$TOOLKIT_DIR$\config\linker\GD\GD32F307xE.icf</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\..\..\Firmware\CMSIS\core_cmFunc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\CMSIS\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_pmu.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_exti.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_i2c.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_usart.pbi</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_ctc.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_can.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_timer.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\system_gd32f30x.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_dac.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_enet.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_exti.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_can.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_dma.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_pmu.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_crc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_enet.c</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_adc.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_misc.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_rcu.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_dbg.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_pmu.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_dbg.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_dbg.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_sdio.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_rtc.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_rcu.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_misc.c</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_usart.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_fwdgt.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_i2c.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_ctc.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_adc.o</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_tli.c</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_dma.o</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_fmc.c</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_exmc.o</file>
+      <file>$PROJ_DIR$\..\..\Utilities\gd32f30x_eval.c</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_tli.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_trng.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_syscfg.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_spi.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_timer.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_sdio.pbi</file>
+      <file>$PROJ_DIR$\..\main.h</file>
+      <file>$PROJ_DIR$\..\..\Utilities\gd32f30x_eval.h</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_wwdgt.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_usart.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Utilities\gd32f450i_eval.c</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\startup_gd32f30x_xd.o</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_misc.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_gpio.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_ctc.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_can.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_adc.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\CMSIS\GD\GD32F4xx\Source\system_gd32f4xx.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_crc.c</file>
+      <file>$PROJ_DIR$\..\gd32f4xx_it.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_dci.c</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_misc.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_iref.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_dma.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_syscfg.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_ipa.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_rcu.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_spi.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_exti.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_sdio.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_pmu.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_gpio.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_can.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_rtc.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_dci.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_it.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f450i_eval.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_rcu.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_fwdgt.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_i2c.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_misc.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_gpio.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\system_gd32f4xx.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\system_gd32f30x.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_bkp.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\system_gd32f30x.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_exmc.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_it.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_fwdgt.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_wwdgt.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_timer.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_exmc.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_fwdgt.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_bkp.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_dac.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_enet.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_rtc.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_rtc.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_i2c.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_ipa.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_rcu.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_gpio.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_fwdgt.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_fmc.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_exmc.pbi</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_pmu.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_rcu.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_rtc.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_sdio.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_spi.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_syscfg.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_timer.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_trng.c</file>
+      <file>$PROJ_DIR$\..\gd32f30x_libopt.h</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_usart.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_wwdgt.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\CMSIS\GD\GD32F4xx\Source\IAR\startup_gd32f450.s</file>
+      <file>$PROJ_DIR$\..\..\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_exti.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_fwdgt.c</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\startup_gd32f30x_hd.o</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_i2c.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_ipa.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_iref.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_dac.c</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_eval.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\main.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\systick.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_eval.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_it.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_crc.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_sdio.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_spi.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f4xx_crc.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\startup_gd32f30x_md.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Exe\Project.out</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_dac.o</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h</file>
+      <file>$PROJ_DIR$\..\main.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\CMSIS\GD\GD32F30x\Source\system_gd32f30x.c</file>
+      <file>$PROJ_DIR$\..\gd32f30x_it.c</file>
+      <file>$PROJ_DIR$\..\systick.c</file>
+      <file>$PROJ_DIR$\..\..\Utilities\gd32f307c_eval.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_dbg.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_adc.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_bkp.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_can.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_crc.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_ctc.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_dac.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_dbg.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_dma.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_enet.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_exmc.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_exti.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_fmc.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_fwdgt.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_i2c.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_misc.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_pmu.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_rcu.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_rtc.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_sdio.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_spi.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_timer.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_usart.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_wwdgt.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\CMSIS\GD\GD32F30x\Source\IAR\startup_gd32f30x_cl.s</file>
+      <file>$PROJ_DIR$\..\..\Firmware\CMSIS\GD\GD32F30x\Source\IAR\startup_gd32f30x_hd.s</file>
+      <file>$PROJ_DIR$\..\..\Firmware\CMSIS\GD\GD32F30x\Source\IAR\startup_gd32f30x_xd.s</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\Project.pbd</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\startup_gd32f30x_cl.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_exti.pbi</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_crc.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_ctc.pbi</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h</file>
+      <file>$PROJ_DIR$\..\gd32f30x_it.h</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_it.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_gpio.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_i2c.o</file>
+      <file>$PROJ_DIR$\GD32F30X_CL\Obj\gd32f30x_can.o</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 230</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_dma.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 114</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_exti.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 153</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 212</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_exmc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 116</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 190</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\CMSIS\GD\GD32F30x\Source\IAR\startup_gd32f30x_md.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 229</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_enet.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_misc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_tli.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 118</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_fmc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 189</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Utilities\gd32f30x_eval.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 220</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 223</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 127 211 53 121 119 82 269 81 61 138 136 76 79 130 74 23 197 207 39 41 133 231 134 37 274 234 38 277 194 273 196 36 199 191 44 235 62 193 59 40 84 177 75 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119 196 82 76 79 134 59 197 207 23 136 39 38 44 211 177 53 121 74 269 138 133 274 194 199 62 84 127 81 61 130 41 231 37 234 277 273 36 191 235 193 40 42 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Utilities\gd32f450i_eval.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 161</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_ctc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 111</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_can.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 157</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_adc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 112</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\CMSIS\GD\GD32F4xx\Source\system_gd32f4xx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_crc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 228</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\gd32f4xx_it.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 160</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_dci.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 159</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_pmu.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 155</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_rcu.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 186</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 158</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 183</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_sdio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 154</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 125</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_spi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 152</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_syscfg.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 149</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 124</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_trng.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 120</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_usart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 129</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_wwdgt.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 128</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\CMSIS\GD\GD32F4xx\Source\IAR\startup_gd32f450.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 6</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_fwdgt.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 188</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 156</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 187</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 110</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 184</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_ipa.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 150</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 185</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_iref.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 147</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_dac.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 71</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\GD32F30X_CL\Exe\Project.out</name>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 72 97 169 282 275 85 233 103 26 181 220 171 91 3 178 280 281 279 135 94 99 105 57 54 46 47 48 221 271 170 65 67 13 73 70 15</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 221</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 232</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 211 53 121 119 82 269 81 61 138 136 76 79 130 74 23 197 207 39 41 133 231 134 37 274 234 38 277 194 273 196 36 199 191 44 235 62 193 59 40 84 177 75 42 58 192 195 126 127</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 53 74 269 39 211 50 82 119 79 38 75 192 121 134 196 59 58 126 197 207 76 23 136 133 274 194 199 62 84 195 138 81 61 130 41 231 37 234 277 273 36 191 235 193 40 42 177</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\CMSIS\GD\GD32F30x\Source\system_gd32f30x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 170</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 88</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 211 53 121 119 82 269 81 61 138 136 76 79 130 74 23 197 207 39 41 133 231 134 37 274 234 38 277 194 273 196 36 199 191 44 235 62 193 59 40 84 177 75 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231 76 119 193 82 138 273 211 197 207 23 81 234 191 42 177 53 121 74 269 61 130 41 37 277 36 235 40 136 79 39 133 134 274 38 194 196 199 44 62 59 84 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\gd32f30x_it.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 279</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 172</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 224</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 278 211 53 121 119 82 269 81 61 138 136 76 79 130 74 23 197 207 39 41 133 231 134 37 274 234 38 277 194 273 196 36 199 191 44 235 62 193 59 40 84 177 75 42 126 58</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 211 274 119 79 84 53 74 269 61 199 58 121 138 81 133 194 62 126 197 207 76 23 82 136 39 134 38 196 44 59 75 278 130 41 231 37 234 277 273 36 191 235 193 40 42 177</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\systick.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 222</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 211 53 121 119 82 269 81 61 138 136 76 79 130 74 23 197 207 39 41 133 231 134 37 274 234 38 277 194 273 196 36 199 191 44 235 62 193 59 40 84 177 75 42 58</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37 269 76 61 40 119 36 211 197 207 23 138 81 130 41 277 235 58 53 121 74 82 136 231 234 273 191 193 42 177 79 39 133 134 274 38 194 196 199 44 62 59 84 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Utilities\gd32f307c_eval.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 52</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40 121 269 37 119 36 211 53 74 138 61 130 41 277 235 50 197 207 76 23 82 81 231 234 273 191 193 42 177 136 79 39 133 134 274 38 194 196 199 44 62 59 84 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_dbg.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_adc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 211 53 121 119 82 269 81 61 138 136 76 79 130 74 23 197 207 39 133 231 134 37 274 234 38 277 194 273 196 36 199 191 44 235 62 193 59 40 84 177 75 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61 41 235 211 53 74 269 130 277 119 121 37 36 40 177 82 197 207 76 23 138 81 231 234 273 191 193 42 136 79 39 133 134 274 38 194 196 199 44 62 59 84 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_bkp.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 169</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 179</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 199 211 53 121 119 82 269 81 61 138 136 76 79 130 74 23 197 207 39 41 133 231 134 37 274 234 38 277 194 273 196 36 191 44 235 62 193 59 40 84 177 75 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 277 130 211 197 207 23 269 61 41 235 119 76 82 138 37 36 40 177 53 121 74 81 231 234 273 191 193 42 199 136 79 39 133 134 274 38 194 196 44 62 59 84 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_can.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 282</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 86</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 133 211 53 121 119 82 269 81 61 138 136 76 79 130 74 23 197 207 39 41 231 134 37 274 234 38 277 194 273 196 36 199 191 44 235 62 193 59 40 84 177 75 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 234 23 197 207 42 211 81 191 119 76 82 138 231 273 193 177 53 121 74 269 61 130 41 37 277 36 235 40 133 136 79 39 134 274 38 194 196 199 44 62 59 84 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_crc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 275</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 95</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 225</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 231 211 53 121 119 82 269 81 61 138 136 76 79 130 74 23 197 207 39 41 133 134 37 274 234 38 277 194 273 196 36 199 191 44 235 62 193 59 40 84 177 75 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 121 119 234 42 211 191 53 74 136 231 273 193 177 82 197 207 76 23 269 138 81 61 130 41 37 277 36 235 40 79 39 133 134 274 38 194 196 199 44 62 59 84 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_ctc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 276</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 134 211 53 121 119 82 269 81 61 138 136 76 79 130 74 23 197 207 39 41 133 231 37 274 234 38 277 194 273 196 36 199 191 44 235 62 193 59 40 84 177 75 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 194 76 121 119 82 133 62 211 197 207 23 136 79 274 199 84 177 53 74 269 138 39 134 38 196 44 59 81 61 130 41 231 37 234 277 273 36 191 235 193 40 42 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_dac.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 233</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 89</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37 211 53 121 119 82 269 81 61 138 136 76 79 130 74 23 197 207 39 41 133 231 134 274 234 38 277 194 273 196 36 199 191 44 235 62 193 59 40 84 177 75 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 211 134 121 119 82 79 59 196 53 74 39 38 44 177 197 207 76 23 136 133 274 194 199 62 84 138 37 269 81 61 130 41 231 234 277 273 36 191 235 193 40 42 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_dbg.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 103</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 274 211 53 121 119 82 269 81 61 138 136 76 79 130 74 23 197 207 39 41 133 231 134 37 234 38 277 194 273 196 36 199 191 44 235 62 193 59 40 84 177 75 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79 82 59 121 134 119 269 61 196 211 53 74 138 81 39 38 44 177 197 207 76 23 136 133 274 194 199 62 84 130 41 231 37 234 277 273 36 191 235 193 40 42 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_dma.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 148</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 234 211 53 121 119 82 269 81 61 138 136 76 79 130 74 23 197 207 39 41 133 231 134 37 274 38 277 194 273 196 36 199 191 44 235 62 193 59 40 84 177 75 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 138 76 273 211 119 231 193 197 207 23 81 234 191 42 177 82 53 121 74 269 61 130 41 37 277 36 235 40 136 79 39 133 134 274 38 194 196 199 44 62 59 84 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_enet.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 181</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84 211 53 121 119 82 269 81 61 138 136 76 79 130 74 23 197 207 39 41 133 231 134 37 274 234 38 277 194 273 196 36 199 191 44 235 62 193 59 40 42 177 75</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81 211 191 234 42 197 207 23 138 119 231 273 193 82 177 76 269 61 130 41 37 277 36 235 40 53 121 74 136 79 39 133 134 274 38 194 196 199 44 62 59 84 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_exmc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 171</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 176</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 42 211 53 121 119 82 269 81 61 138 136 76 79 130 74 23 197 207 39 41 133 231 134 37 274 234 38 277 194 273 196 36 199 191 44 235 62 193 59 40 84 177 75</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 211 81 53 74 191 177 234 42 82 121 138 119 231 273 193 197 207 76 23 269 61 130 41 37 277 36 235 40 136 79 39 133 134 274 38 194 196 199 44 62 59 84 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_exti.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 272</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 78</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38 211 53 121 119 82 269 81 61 138 136 76 79 130 74 23 197 207 39 41 133 231 134 37 274 234 277 194 273 196 36 199 191 44 235 62 193 59 40 84 177 75 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 121 119 211 42 234 81 191 53 74 136 231 273 193 177 82 197 207 76 23 269 138 61 130 41 37 277 36 235 40 38 79 39 133 134 274 194 196 199 44 62 59 84 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_fmc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 3</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 2</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 277 211 53 121 119 82 269 81 61 138 136 76 79 130 74 23 197 207 39 41 133 231 134 37 274 234 38 194 273 196 36 199 191 44 235 62 193 59 40 84 177 75 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 207 197 23 119 193 231 211 82 138 273 76 81 234 191 42 177 53 121 74 269 61 130 41 37 277 36 235 40 136 79 39 133 134 274 38 194 196 199 44 62 59 84 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_fwdgt.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 173</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 163</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 194 211 53 121 119 82 269 81 61 138 136 76 79 130 74 23 197 207 39 41 133 231 134 37 274 234 38 277 273 196 36 199 191 44 235 62 193 59 40 84 177 75 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 130 211 121 119 277 269 61 41 235 53 74 138 37 36 40 177 82 197 207 76 23 136 81 231 234 273 191 193 42 194 79 39 133 134 274 38 196 199 44 62 59 84 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 280</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 137</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 166</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 273 211 53 121 119 82 269 81 61 138 136 76 79 130 74 23 197 207 39 41 133 231 134 37 274 234 38 277 194 196 36 199 191 44 235 62 193 59 40 84 177 75 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119 79 82 59 134 211 197 207 23 196 76 39 38 44 177 53 121 74 136 133 274 194 199 62 84 138 273 269 81 61 130 41 231 37 234 277 36 191 235 193 40 42 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 281</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 164</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 196 211 53 121 119 82 269 81 61 138 136 76 79 130 74 23 197 207 39 41 133 231 134 37 274 234 38 277 194 273 36 199 191 44 235 62 193 59 40 84 177 75 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81 191 53 74 234 42 211 119 121 82 138 231 273 193 177 197 207 76 23 269 61 130 41 37 277 36 235 40 196 136 79 39 133 134 274 38 194 199 44 62 59 84 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_misc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 135</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 165</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40 211 53 121 119 82 269 81 61 138 136 76 79 130 74 23 197 207 39 41 133 231 134 37 274 234 38 277 194 273 196 36 199 191 44 235 62 193 59 84 177 75 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 121 119 40 37 211 36 53 74 136 130 41 277 235 177 82 197 207 76 23 269 138 81 61 231 234 273 191 193 42 79 39 133 134 274 38 194 196 199 44 62 59 84 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_pmu.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 36 211 53 121 119 82 269 81 61 138 136 76 79 130 74 23 197 207 39 41 133 231 134 37 274 234 38 277 194 273 196 199 191 44 235 62 193 59 40 84 177 75 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_rcu.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 99</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 106</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 162</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 39 211 53 121 119 82 269 81 61 138 136 76 79 130 74 23 197 207 41 133 231 134 37 274 234 38 277 194 273 196 36 199 191 44 235 62 193 59 40 84 177 75 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 211 38 119 79 197 207 23 39 44 76 82 134 196 59 177 53 121 74 136 133 274 194 199 62 84 138 269 81 61 130 41 231 37 234 277 273 36 191 235 193 40 42 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 105</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 182</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 191 211 53 121 119 82 269 81 61 138 136 76 79 130 74 23 197 207 39 41 133 231 134 37 274 234 38 277 194 273 196 36 199 44 235 62 193 59 40 84 177 75 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 274 211 121 119 79 84 82 199 53 74 136 133 194 62 177 197 207 76 23 269 138 81 61 39 134 38 196 44 59 191 130 41 231 37 234 277 273 36 235 193 40 42 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_sdio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 226</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 44 211 53 121 119 82 269 81 61 138 136 76 79 130 74 23 197 207 39 41 133 231 134 37 274 234 38 277 194 273 196 36 199 191 235 62 193 59 40 84 177 75 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42 211 121 234 119 81 191 53 74 138 231 273 193 177 82 197 207 76 23 269 61 130 41 37 277 36 235 40 44 136 79 39 133 134 274 38 194 196 199 62 59 84 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_spi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 227</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 235 211 53 121 119 82 269 81 61 138 136 76 79 130 74 23 197 207 39 41 133 231 134 37 274 234 38 277 194 273 196 36 199 191 44 62 193 59 40 84 177 75 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 193 121 119 211 231 138 273 53 74 81 234 191 42 177 82 197 207 76 23 269 61 130 41 37 277 36 235 40 136 79 39 133 134 274 38 194 196 199 44 62 59 84 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 62 211 53 121 119 82 269 81 61 138 136 76 79 130 74 23 197 207 39 41 133 231 134 37 274 234 38 277 194 273 196 36 199 191 44 235 193 59 40 84 177 75 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 211 273 53 74 138 119 231 193 121 81 234 191 42 177 82 197 207 76 23 269 61 130 41 37 277 36 235 40 62 136 79 39 133 134 274 38 194 196 199 44 59 84 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_usart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 108</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 193 211 53 121 119 82 269 81 61 138 136 76 79 130 74 23 197 207 39 41 133 231 134 37 274 234 38 277 194 273 196 36 199 191 44 235 62 59 40 84 177 75 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 274 211 79 84 76 136 199 119 197 207 23 121 133 194 62 177 82 53 74 39 134 38 196 44 59 138 193 269 81 61 130 41 231 37 234 277 273 36 191 235 40 42 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_wwdgt.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 174</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 59 211 53 121 119 82 269 81 61 138 136 76 79 130 74 23 197 207 39 41 133 231 134 37 274 234 38 277 194 273 196 36 199 191 44 235 62 193 40 84 177 75 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81 211 273 76 119 82 138 231 193 197 207 23 269 61 234 191 42 177 53 121 74 136 130 41 37 277 36 235 40 59 79 39 133 134 274 38 194 196 199 44 62 84 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\CMSIS\GD\GD32F30x\Source\IAR\startup_gd32f30x_cl.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 271</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\CMSIS\GD\GD32F30x\Source\IAR\startup_gd32f30x_hd.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 214</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\CMSIS\GD\GD32F30x\Source\IAR\startup_gd32f30x_xd.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 132</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_dma.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_exti.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_exmc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_enet.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_misc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_tli.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_fmc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Utilities\gd32f450i_eval.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_ctc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_can.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_adc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\CMSIS\GD\GD32F4xx\Source\system_gd32f4xx.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_crc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\gd32f4xx_it.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_dci.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_pmu.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_rcu.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_rtc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_sdio.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_spi.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_syscfg.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_timer.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_trng.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_usart.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_wwdgt.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_fwdgt.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_gpio.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_i2c.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_ipa.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_iref.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_dac.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_dbg.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>GD32F30X_HD</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+      <file>$PROJ_DIR$\..\..\Firmware\CMSIS\core_cm4_simd.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\CMSIS\core_cm4.h</file>
+      <file>$PROJ_DIR$\..\systick.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Lib\IAR\iar_cortexM4l_math.a</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\..\..\Firmware\CMSIS\core_cmFunc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\CMSIS\core_cmInstr.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h</file>
+      <file>$PROJ_DIR$\..\..\Utilities\gd32f30x_eval.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\..\main.h</file>
+      <file>$PROJ_DIR$\..\..\Utilities\gd32f30x_eval.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\main.o</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_eval.o</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_rtc.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\system_gd32f30x.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h</file>
+      <file>$PROJ_DIR$\..\gd32f30x_libopt.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\systick.o</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_dma.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\startup_gd32f30x_hd.o</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_dma.o</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_dbg.o</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_ctc.o</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_adc.o</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_dac.o</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_fmc.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_fmc.o</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_fmc.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_sdio.o</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_can.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_spi.o</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_timer.o</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_usart.o</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_wwdgt.o</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\startup_gd32f30x_cl.o</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_it.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\systick.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\system_gd32f30x.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_eval.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_adc.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_bkp.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_can.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_crc.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_ctc.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_dac.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_dbg.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_dma.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_enet.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_exmc.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_exti.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_fwdgt.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_adc.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_crc.o</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_ctc.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_i2c.o</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_enet.o</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_rtc.o</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_dac.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_sdio.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_spi.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_timer.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_usart.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_wwdgt.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_rcu.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_exmc.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_i2c.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_gpio.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_fwdgt.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_pmu.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\main.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_exti.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_rcu.o</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_dbg.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_enet.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_crc.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_misc.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_rtc.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_wwdgt.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\systick.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\system_gd32f30x.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_gpio.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_i2c.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_pmu.o</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_exmc.o</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_misc.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_rcu.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_misc.o</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_it.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_pmu.pbi</file>
+      <file>$TOOLKIT_DIR$\config\linker\GD\GD32F303xC.icf</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_bkp.o</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_exti.o</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_fwdgt.o</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_gpio.o</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_can.o</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_usart.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_spi.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_timer.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_bkp.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_eval.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_sdio.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Exe\Project.out</file>
+      <file>$PROJ_DIR$\GD32F30X_HD\Obj\gd32f30x_it.o</file>
+      <file>$PROJ_DIR$\..\main.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\CMSIS\GD\GD32F30x\Source\system_gd32f30x.c</file>
+      <file>$PROJ_DIR$\..\gd32f30x_it.c</file>
+      <file>$PROJ_DIR$\..\systick.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_adc.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_bkp.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_can.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_crc.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_ctc.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_dac.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_dbg.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_dma.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_enet.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_exmc.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_exti.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_fmc.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_fwdgt.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_i2c.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_misc.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_pmu.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_rcu.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_rtc.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_sdio.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_spi.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_timer.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_usart.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_wwdgt.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\CMSIS\GD\GD32F30x\Source\IAR\startup_gd32f30x_cl.s</file>
+      <file>$PROJ_DIR$\..\..\Firmware\CMSIS\GD\GD32F30x\Source\IAR\startup_gd32f30x_hd.s</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h</file>
+      <file>$PROJ_DIR$\..\gd32f30x_it.h</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 139</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Utilities\gd32f30x_eval.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 137</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 30 50 11 28 27 24 171 23 14 35 34 21 22 31 19 2 47 49 6 8 32 51 33 4 173 52 5 174 44 172 46 3 48 41 10 53 15 43 13 7 25 40 20 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35 50 15 11 19 27 32 23 28 44 20 171 14 31 173 48 25 24 47 49 21 2 34 22 6 33 5 46 10 13 30 8 51 4 52 174 172 3 41 53 43 7 9 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\GD32F30X_HD\Exe\Project.out</name>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 127 60 128 132 90 59 61 58 57 93 37 121 129 63 130 131 92 140 124 120 109 94 65 67 68 69 70 36 56 39 54 16 0 18 17 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 107</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 11 28 27 24 171 23 14 35 34 21 22 31 19 2 47 49 6 8 32 51 33 4 173 52 5 174 44 172 46 3 48 41 10 53 15 43 13 7 25 40 20 9 12 42 45 29 30</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22 46 50 28 34 30 27 33 13 42 11 19 24 6 5 10 20 12 29 47 49 21 2 171 35 23 14 31 32 173 44 48 15 25 8 51 4 52 174 172 3 41 53 43 7 9 40 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\CMSIS\GD\GD32F30x\Source\system_gd32f30x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 117</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 11 28 27 24 171 23 14 35 34 21 22 31 19 2 47 49 6 8 32 51 33 4 173 52 5 174 44 172 46 3 48 41 10 53 15 43 13 7 25 40 20 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50 35 15 47 49 2 27 32 23 28 44 20 21 24 171 14 31 173 48 25 11 19 34 22 6 33 5 46 10 13 8 51 4 52 174 172 3 41 53 43 7 9 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\gd32f30x_it.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 140</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 125</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175 50 11 28 27 24 171 23 14 35 34 21 22 31 19 2 47 49 6 8 32 51 33 4 173 52 5 174 44 172 46 3 48 41 10 53 15 43 13 7 25 40 20 9 29 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 35 7 28 4 50 23 3 12 11 19 171 14 31 8 174 53 40 24 29 47 49 21 2 34 22 51 52 172 41 43 9 175 6 32 33 173 5 44 46 48 10 15 13 25 20</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\systick.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 116</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 11 28 27 24 171 23 14 35 34 21 22 31 19 2 47 49 6 8 32 51 33 4 173 52 5 174 44 172 46 3 48 41 10 53 15 43 13 7 25 40 20 9 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22 13 33 47 49 2 171 14 31 46 50 21 24 35 23 27 6 5 10 12 11 28 19 34 32 173 44 48 15 25 20 8 51 4 52 174 172 3 41 53 43 7 9 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_adc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 89</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8 50 11 28 27 24 171 23 14 35 34 21 22 31 19 2 47 49 6 32 51 33 4 173 52 5 174 44 172 46 3 48 41 10 53 15 43 13 7 25 40 20 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19 53 11 27 35 8 20 23 31 174 50 28 171 14 4 3 7 24 47 49 21 2 34 51 52 172 41 43 9 22 6 32 33 173 5 44 46 48 10 15 13 25 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_bkp.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 128</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 136</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48 50 11 28 27 24 171 23 14 35 34 21 22 31 19 2 47 49 6 8 32 51 33 4 173 52 5 174 44 172 46 3 41 10 53 15 43 13 7 25 40 20 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28 25 50 27 173 20 24 48 11 19 34 22 32 44 15 47 49 21 2 171 35 23 14 31 6 33 5 46 10 13 8 51 4 52 174 172 3 41 53 43 7 9 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_can.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 132</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 66</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32 50 11 28 27 24 171 23 14 35 34 21 22 31 19 2 47 49 6 8 51 33 4 173 52 5 174 44 172 46 3 48 41 10 53 15 43 13 7 25 40 20 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 50 24 7 20 21 3 47 49 2 171 14 31 8 174 53 11 28 19 27 35 23 51 52 172 41 43 9 32 34 22 6 33 173 5 44 46 48 10 15 13 25 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_crc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 112</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 51 50 11 28 27 24 171 23 14 35 34 21 22 31 19 2 47 49 6 8 32 33 4 173 52 5 174 44 172 46 3 48 41 10 53 15 43 13 7 25 40 20 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31 25 50 171 21 14 173 24 48 20 47 49 2 35 23 27 28 32 44 15 11 19 34 22 6 33 5 46 10 13 51 8 4 52 174 172 3 41 53 43 7 9 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_ctc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 91</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33 50 11 28 27 24 171 23 14 35 34 21 22 31 19 2 47 49 6 8 32 51 4 173 52 5 174 44 172 46 3 48 41 10 53 15 43 13 7 25 40 20 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50 27 174 47 49 2 24 8 53 20 21 34 22 4 3 7 11 28 19 171 35 23 14 31 51 52 172 41 43 9 33 6 32 173 5 44 46 48 10 15 13 25 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_dac.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 95</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 4 50 11 28 27 24 171 23 14 35 34 21 22 31 19 2 47 49 6 8 32 51 33 173 52 5 174 44 172 46 3 48 41 10 53 15 43 13 7 25 40 20 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50 34 13 24 22 33 20 21 46 47 49 2 27 6 5 10 11 28 19 171 35 23 14 31 32 173 44 48 15 25 4 8 51 52 174 172 3 41 53 43 7 9 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_dbg.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 110</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 173 50 11 28 27 24 171 23 14 35 34 21 22 31 19 2 47 49 6 8 32 51 33 4 52 5 174 44 172 46 3 48 41 10 53 15 43 13 7 25 40 20 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 173 28 50 27 25 171 14 31 48 20 11 19 35 23 32 44 15 24 47 49 21 2 34 22 6 33 5 46 10 13 8 51 4 52 174 172 3 41 53 43 7 9 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_dma.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 52 50 11 28 27 24 171 23 14 35 34 21 22 31 19 2 47 49 6 8 32 51 33 4 173 5 174 44 172 46 3 48 41 10 53 15 43 13 7 25 40 20 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 172 21 50 20 24 34 22 51 43 47 49 2 27 52 41 9 11 28 19 171 35 23 14 31 8 4 174 3 53 7 6 32 33 173 5 44 46 48 10 15 13 25 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_enet.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 111</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 25 50 11 28 27 24 171 23 14 35 34 21 22 31 19 2 47 49 6 8 32 51 33 4 173 52 5 174 44 172 46 3 48 41 10 53 15 43 13 7 9 40 20</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50 15 32 40 21 28 44 24 47 49 2 34 22 173 48 25 27 11 19 6 33 5 46 10 13 35 171 23 14 31 8 51 4 52 174 172 3 41 53 43 7 9 20</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_exmc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 121</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 86</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 102</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 9 50 11 28 27 24 171 23 14 35 34 21 22 31 19 2 47 49 6 8 32 51 33 4 173 52 5 174 44 172 46 3 48 41 10 53 15 43 13 7 25 40 20</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50 35 53 47 49 2 27 8 40 23 31 174 24 21 171 14 4 3 7 11 28 19 34 51 52 172 41 43 9 22 6 32 33 173 5 44 46 48 10 15 13 25 20</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_exti.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 129</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 108</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 5 50 11 28 27 24 171 23 14 35 34 21 22 31 19 2 47 49 6 8 32 51 33 4 173 52 174 44 172 46 3 48 41 10 53 15 43 13 7 25 40 20 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50 34 173 22 25 11 19 48 20 28 27 24 32 44 15 47 49 21 2 171 35 23 14 31 6 33 5 46 10 13 8 51 4 52 174 172 3 41 53 43 7 9 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_fmc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 174 50 11 28 27 24 171 23 14 35 34 21 22 31 19 2 47 49 6 8 32 51 33 4 173 52 5 44 172 46 3 48 41 10 53 15 43 13 7 25 40 20 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 53 47 27 50 49 35 8 20 23 31 174 21 24 171 14 4 3 7 11 28 19 34 51 52 172 41 43 9 22 6 32 33 173 5 44 46 48 10 15 13 25 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_fwdgt.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 130</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 105</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 44 50 11 28 27 24 171 23 14 35 34 21 22 31 19 2 47 49 6 8 32 51 33 4 173 52 5 174 172 46 3 48 41 10 53 15 43 13 7 25 40 20 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 172 50 34 22 11 19 51 43 20 28 27 24 52 41 9 47 49 21 2 171 35 23 14 31 8 4 174 3 53 7 44 6 32 33 173 5 46 48 10 15 13 25 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 131</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 118</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 104</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 172 50 11 28 27 24 171 23 14 35 34 21 22 31 19 2 47 49 6 8 32 51 33 4 173 52 5 174 44 46 3 48 41 10 53 15 43 13 7 25 40 20 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33 27 28 22 13 20 24 46 50 11 19 34 6 5 10 47 49 21 2 171 35 23 14 31 32 173 44 48 15 25 172 8 51 4 52 174 3 41 53 43 7 9 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 92</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 103</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46 50 11 28 27 24 171 23 14 35 34 21 22 31 19 2 47 49 6 8 32 51 33 4 173 52 5 174 44 172 3 48 41 10 53 15 43 13 7 25 40 20 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19 6 11 27 50 35 10 20 23 22 5 28 171 14 31 33 46 13 24 47 49 21 2 34 32 173 44 48 15 25 8 51 4 52 174 172 3 41 53 43 7 9 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_misc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 124</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 113</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 50 11 28 27 24 171 23 14 35 34 21 22 31 19 2 47 49 6 8 32 51 33 4 173 52 5 174 44 172 46 3 48 41 10 53 15 43 13 25 40 20 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33 50 28 27 22 13 171 14 31 46 20 11 19 35 23 6 5 10 24 47 49 21 2 34 32 173 44 48 15 25 7 8 51 4 52 174 172 3 41 53 43 9 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_pmu.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 120</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 126</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 106</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 3 50 11 28 27 24 171 23 14 35 34 21 22 31 19 2 47 49 6 8 32 51 33 4 173 52 5 174 44 172 46 48 41 10 53 15 43 13 7 25 40 20 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52 50 27 9 47 49 2 24 41 20 21 34 22 51 172 43 11 28 19 171 35 23 14 31 8 4 174 3 53 7 6 32 33 173 5 44 46 48 10 15 13 25 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_rcu.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 101</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 50 11 28 27 24 171 23 14 35 34 21 22 31 19 2 47 49 8 32 51 33 4 173 52 5 174 44 172 46 3 48 41 10 53 15 43 13 7 25 40 20 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 173 22 25 20 47 49 2 24 34 48 50 21 28 32 44 15 11 19 27 6 33 5 46 10 13 171 35 23 14 31 8 51 4 52 174 172 3 41 53 43 7 9 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 114</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 50 11 28 27 24 171 23 14 35 34 21 22 31 19 2 47 49 6 8 32 51 33 4 173 52 5 174 44 172 46 3 48 10 53 15 43 13 7 25 40 20 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35 50 25 21 27 173 24 23 48 20 47 49 2 171 14 31 28 32 44 15 11 19 34 22 6 33 5 46 10 13 41 8 51 4 52 174 172 3 53 43 7 9 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_sdio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 138</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10 50 11 28 27 24 171 23 14 35 34 21 22 31 19 2 47 49 6 8 32 51 33 4 173 52 5 174 44 172 46 3 48 41 53 15 43 13 7 25 40 20 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14 7 21 171 31 4 20 24 3 50 47 49 2 35 23 27 8 174 53 11 28 19 34 22 51 52 172 41 43 9 10 6 32 33 173 5 44 46 48 15 13 25 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_spi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 134</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 53 50 11 28 27 24 171 23 14 35 34 21 22 31 19 2 47 49 6 8 32 51 33 4 173 52 5 174 44 172 46 3 48 41 10 15 43 13 7 25 40 20 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24 50 27 172 20 21 51 43 47 49 2 34 22 52 41 9 11 28 19 171 35 23 14 31 8 4 174 3 53 7 6 32 33 173 5 44 46 48 10 15 13 25 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 135</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15 50 11 28 27 24 171 23 14 35 34 21 22 31 19 2 47 49 6 8 32 51 33 4 173 52 5 174 44 172 46 3 48 41 10 53 43 13 7 25 40 20 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31 50 171 174 20 21 14 8 53 47 49 2 24 4 3 7 11 28 19 35 23 27 51 52 172 41 43 9 15 34 22 6 32 33 173 5 44 46 48 10 13 25 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_usart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 133</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43 50 11 28 27 24 171 23 14 35 34 21 22 31 19 2 47 49 6 8 32 51 33 4 173 52 5 174 44 172 46 3 48 41 10 53 15 13 7 25 40 20 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 50 49 22 47 2 173 20 171 14 48 21 24 35 23 27 28 32 44 15 11 19 34 6 33 5 46 10 13 43 31 8 51 4 52 174 172 3 41 53 7 9 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_wwdgt.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 70</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 115</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 13 50 11 28 27 24 171 23 14 35 34 21 22 31 19 2 47 49 6 8 32 51 33 4 173 52 5 174 44 172 46 3 48 41 10 53 15 43 7 25 40 20 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50 53 22 34 8 11 19 174 20 28 27 24 4 3 7 47 49 21 2 171 35 23 14 31 51 52 172 41 43 9 13 6 32 33 173 5 44 46 48 10 15 25 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\CMSIS\GD\GD32F30x\Source\IAR\startup_gd32f30x_cl.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 71</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\CMSIS\GD\GD32F30x\Source\IAR\startup_gd32f30x_hd.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 56</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>GD32F30X_XD</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_dma.c</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_exti.c</file>
+      <file>$PROJ_DIR$\..\systick.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_exmc.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Lib\IAR\iar_cortexM4l_math.a</file>
+      <file>$PROJ_DIR$\..\..\Firmware\CMSIS\GD\GD32F30x\Source\IAR\startup_gd32f30x_md.s</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_enet.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_misc.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_tli.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_fmc.c</file>
+      <file>$PROJ_DIR$\..\..\Utilities\gd32f30x_eval.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\..\main.h</file>
+      <file>$PROJ_DIR$\..\..\Utilities\gd32f30x_eval.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Utilities\gd32f450i_eval.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_can.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_ctc.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_can.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_adc.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\CMSIS\GD\GD32F4xx\Source\system_gd32f4xx.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_crc.c</file>
+      <file>$PROJ_DIR$\..\gd32f4xx_it.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_dci.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_pmu.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_rcu.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_rtc.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_sdio.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_spi.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_syscfg.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_timer.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_trng.c</file>
+      <file>$PROJ_DIR$\..\gd32f30x_libopt.h</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_usart.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_wwdgt.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\CMSIS\GD\GD32F4xx\Source\IAR\startup_gd32f450.s</file>
+      <file>$PROJ_DIR$\..\..\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_fwdgt.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_i2c.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_ipa.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_iref.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_dac.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm4.h</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_dma.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_fwdgt.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_gpio.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_i2c.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_ipa.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_iref.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_misc.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_pmu.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_rcu.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_sdio.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_spi.o</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmFunc.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\system_gd32f30x.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_timer.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_syscfg.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_dbg.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_sdio.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_fmc.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_fmc.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_gpio.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_exti.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_dci.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_dma.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_enet.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_exmc.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_fmc.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_sdio.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_fwdgt.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_rtc.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_i2c.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_ipa.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_iref.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_usart.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_misc.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_pmu.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_rcu.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_rtc.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_spi.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_rtc.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_syscfg.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_rcu.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_tli.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_rtc.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_trng.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_usart.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_wwdgt.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\startup_gd32f450.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_it.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\systick.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\system_gd32f4xx.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f450i_eval.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_adc.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_exmc.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_i2c.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_spi.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_i2c.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_fwdgt.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_exti.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_misc.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_dbg.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_dac.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_enet.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_dma.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_gpio.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_ctc.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\systick.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_adc.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_bkp.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_can.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_eval.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_it.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_it.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_adc.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\systick.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_enet.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f450i_eval.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\main.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_ctc.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_pmu.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_bkp.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_dac.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\system_gd32f30x.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_eval.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_gpio.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_wwdgt.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_misc.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_enet.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_gpio.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_can.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_dma.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_rcu.o</file>
+      <file>$TOOLKIT_DIR$\config\linker\GD\GD32F303xG.icf</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_it.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_ctc.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_eval.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_i2c.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_misc.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_pmu.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_exti.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_dbg.o</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmSimd.h</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Exe\Project.out</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_fwdgt.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_usart.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_rtc.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_spi.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_sdio.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_sdio.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_can.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_timer.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_exmc.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_fmc.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_tli.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_exmc.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_trng.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_usart.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_wwdgt.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\system_gd32f4xx.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\main.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\system_gd32f30x.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_crc.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_pmu.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_wwdgt.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_usart.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_spi.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_timer.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_rcu.__cstat.et</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_dma.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_can.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_crc.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_it.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_dac.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_fmc.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_bkp.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_crc.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_timer.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_dac.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_dbg.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_wwdgt.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\startup_gd32f30x_md.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_exti.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\startup_gd32f30x_cl.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_crc.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_adc.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\startup_gd32f30x_xd.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\startup_gd32f30x_hd.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_fwdgt.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_exmc.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_adc.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f30x_ctc.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_crc.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_timer.pbi</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_dac.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_can.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_enet.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_dbg.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_dci.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_exti.o</file>
+      <file>$PROJ_DIR$\GD32F30X_XD\Obj\gd32f4xx_ctc.o</file>
+      <file>$PROJ_DIR$\..\main.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\CMSIS\GD\GD32F30x\Source\system_gd32f30x.c</file>
+      <file>$PROJ_DIR$\..\gd32f30x_it.c</file>
+      <file>$PROJ_DIR$\..\systick.c</file>
+      <file>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_dbg.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_adc.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_bkp.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_can.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_crc.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_ctc.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_dac.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_dbg.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_dma.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_enet.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_exmc.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_exti.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_fmc.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_fwdgt.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_i2c.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_misc.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_pmu.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_rcu.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_rtc.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_sdio.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_spi.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_timer.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_usart.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_wwdgt.c</file>
+      <file>$PROJ_DIR$\..\..\Firmware\CMSIS\GD\GD32F30x\Source\IAR\startup_gd32f30x_cl.s</file>
+      <file>$PROJ_DIR$\..\..\Firmware\CMSIS\GD\GD32F30x\Source\IAR\startup_gd32f30x_hd.s</file>
+      <file>$PROJ_DIR$\..\..\Firmware\CMSIS\GD\GD32F30x\Source\IAR\startup_gd32f30x_xd.s</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h</file>
+      <file>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h</file>
+      <file>$PROJ_DIR$\..\gd32f30x_it.h</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 183</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_dma.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_exti.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 239</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_exmc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 195</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\CMSIS\GD\GD32F30x\Source\IAR\startup_gd32f30x_md.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 221</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_enet.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 236</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_misc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 86</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_tli.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 122</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 194</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_fmc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 214</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 106</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Utilities\gd32f30x_eval.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 176</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 164</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 151</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34 69 79 32 31 24 273 23 15 40 39 92 22 35 91 182 55 65 6 8 37 76 38 4 275 77 5 276 52 274 54 3 57 49 10 78 16 51 13 7 25 48 21 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54 69 79 91 31 24 22 38 13 21 32 39 6 5 10 55 65 92 182 273 40 23 15 35 37 275 52 57 16 25 34 8 76 4 77 276 274 3 49 78 51 7 9 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Utilities\gd32f450i_eval.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 157</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 132</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_ctc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 240</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 159</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_can.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 235</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 210</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_adc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 154</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\CMSIS\GD\GD32F4xx\Source\system_gd32f4xx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 199</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 131</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_crc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 232</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 211</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\gd32f4xx_it.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 153</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 128</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_dci.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 238</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_pmu.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 115</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_rcu.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 116</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 119</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 117</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_sdio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 89</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_spi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 118</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_syscfg.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 120</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 95</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 233</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_trng.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 124</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 196</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_usart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 125</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 197</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_wwdgt.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 126</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 198</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\CMSIS\GD\GD32F4xx\Source\IAR\startup_gd32f450.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 127</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_fwdgt.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 83</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_ipa.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_iref.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 112</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_dac.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 234</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 213</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\GD32F30X_XD\Exe\Project.out</name>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 173 225 215 190 224 175 162 181 209 156 176 192 180 99 184 169 177 212 167 160 172 123 189 187 191 113 220 158 226 93 155 17 1 20 19 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 158</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 129</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 200</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69 79 32 31 24 273 23 15 40 39 92 22 35 91 182 55 65 6 8 37 76 38 4 275 77 5 276 52 274 54 3 57 49 10 78 16 51 13 7 25 48 21 9 12 50 53 33 34</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31 275 69 32 25 34 24 57 50 79 91 39 22 37 52 16 21 12 33 55 65 92 182 273 40 23 15 35 6 38 5 54 10 13 8 76 4 77 276 274 3 49 78 51 7 9 48 53</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\CMSIS\GD\GD32F30x\Source\system_gd32f30x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 163</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 201</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69 79 32 31 24 273 23 15 40 39 92 22 35 91 182 55 65 6 8 37 76 38 4 275 77 5 276 52 274 54 3 57 49 10 78 16 51 13 7 25 48 21 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54 69 31 32 39 22 38 13 21 79 91 24 6 5 10 55 65 92 182 273 40 23 15 35 37 275 52 57 16 25 8 76 4 77 276 274 3 49 78 51 7 9 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\gd32f30x_it.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 212</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 174</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 152</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 277 69 79 32 31 24 273 23 15 40 39 92 22 35 91 182 55 65 6 8 37 76 38 4 275 77 5 276 52 274 54 3 57 49 10 78 16 51 13 7 25 48 21 9 33 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 49 31 32 22 69 77 9 12 79 91 24 76 274 51 48 33 55 65 92 182 273 40 23 15 35 8 4 276 3 78 7 277 6 37 38 275 5 52 54 57 10 16 13 25 21</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\systick.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 155</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 130</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 147</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69 79 32 31 24 273 23 15 40 39 92 22 35 91 182 55 65 6 8 37 76 38 4 275 77 5 276 52 274 54 3 57 49 10 78 16 51 13 7 25 48 21 9 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57 23 69 55 65 182 40 31 275 25 92 24 273 15 35 32 37 52 16 12 79 91 39 22 6 38 5 54 10 13 21 8 76 4 77 276 274 3 49 78 51 7 9 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_dbg.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 237</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_adc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 225</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 230</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 148</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8 69 79 32 31 24 273 23 15 40 39 92 22 35 91 182 55 65 6 37 76 38 4 275 77 5 276 52 274 54 3 57 49 10 78 16 51 13 7 25 48 21 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91 79 274 21 39 76 51 69 32 31 24 77 49 9 55 65 92 182 273 40 23 15 35 8 4 276 3 78 7 22 6 37 38 275 5 52 54 57 10 16 13 25 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_bkp.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 215</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 161</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 149</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57 69 79 32 31 24 273 23 15 40 39 92 22 35 91 182 55 65 6 8 37 76 38 4 275 77 5 276 52 274 54 3 49 10 78 16 51 13 7 25 48 21 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 32 69 31 6 21 24 22 5 79 91 39 38 54 13 55 65 92 182 273 40 23 15 35 37 275 52 57 16 25 8 76 4 77 276 274 3 49 78 51 7 9 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_can.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 190</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 170</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 150</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37 69 79 32 31 24 273 23 15 40 39 92 22 35 91 182 55 65 6 8 76 38 4 275 77 5 276 52 274 54 3 57 49 10 78 16 51 13 7 25 48 21 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 69 24 49 21 92 77 9 55 65 182 40 31 76 274 51 79 32 91 273 15 35 8 4 276 3 78 7 37 39 22 6 38 275 5 52 54 57 10 16 13 25 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_crc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 224</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 216</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 202</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76 69 79 32 31 24 273 23 15 40 39 92 22 35 91 182 55 65 6 8 37 38 4 275 77 5 276 52 274 54 3 57 49 10 78 16 51 13 7 25 48 21 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35 69 273 10 92 15 6 24 22 5 21 55 65 182 40 23 31 38 54 13 79 32 91 39 37 275 52 57 16 25 76 8 4 77 276 274 3 49 78 51 7 9 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_ctc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 146</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38 69 79 32 31 24 273 23 15 40 39 92 22 35 91 182 55 65 6 8 37 76 4 275 77 5 276 52 274 54 3 57 49 10 78 16 51 13 7 25 48 21 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35 51 69 273 15 76 55 65 182 274 21 92 24 40 23 31 77 49 9 79 32 91 39 22 8 4 276 3 78 7 38 6 37 275 5 52 54 57 10 16 13 25 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_dac.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 162</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 218</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 142</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 4 69 79 32 31 24 273 23 15 40 39 92 22 35 91 182 55 65 6 8 37 76 38 275 77 5 276 52 274 54 3 57 49 10 78 16 51 13 7 25 48 21 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69 24 57 21 92 273 15 35 275 25 55 65 182 40 23 31 32 37 52 16 79 91 39 22 6 38 5 54 10 13 4 8 76 77 276 274 3 49 78 51 7 9 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_dbg.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 181</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 219</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 141</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 275 69 79 32 31 24 273 23 15 40 39 92 22 35 91 182 55 65 6 8 37 76 38 4 77 5 276 52 274 54 3 57 49 10 78 16 51 13 7 25 48 21 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38 69 79 91 22 13 39 54 21 32 31 24 6 5 10 55 65 92 182 273 40 23 15 35 37 275 52 57 16 25 8 76 4 77 276 274 3 49 78 51 7 9 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_dma.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 209</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 171</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 144</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 77 69 79 32 31 24 273 23 15 40 39 92 22 35 91 182 55 65 6 8 37 76 38 4 275 5 276 52 274 54 3 57 49 10 78 16 51 13 7 25 48 21 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 92 7 21 24 39 22 3 69 55 65 182 31 8 276 78 79 32 91 273 40 23 15 35 76 77 274 49 51 9 6 37 38 275 5 52 54 57 10 16 13 25 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_enet.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 156</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 143</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 25 69 79 32 31 24 273 23 15 40 39 92 22 35 91 182 55 65 6 8 37 76 38 4 275 77 5 276 52 274 54 3 57 49 10 78 16 51 13 7 9 48 21</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69 54 31 48 92 24 22 38 13 55 65 182 6 5 10 79 32 91 39 37 275 52 57 16 25 40 273 23 15 35 8 76 4 77 276 274 3 49 78 51 7 9 21</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_exmc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 192</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 229</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 134</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 9 69 79 32 31 24 273 23 15 40 39 92 22 35 91 182 55 65 6 8 37 76 38 4 275 77 5 276 52 274 54 3 57 49 10 78 16 51 13 7 25 48 21</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 274 69 55 65 182 48 31 76 51 24 92 39 77 49 9 79 32 91 273 40 23 15 35 8 4 276 3 78 7 22 6 37 38 275 5 52 54 57 10 16 13 25 21</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_exti.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 222</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 139</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 5 69 79 32 31 24 273 23 15 40 39 92 22 35 91 182 55 65 6 8 37 76 38 4 275 77 276 52 274 54 3 57 49 10 78 16 51 13 7 25 48 21 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 69 39 22 10 79 91 5 21 32 31 24 38 54 13 55 65 92 182 273 40 23 15 35 37 275 52 57 16 25 8 76 4 77 276 274 3 49 78 51 7 9 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_fmc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 99</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 193</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 276 69 79 32 31 24 273 23 15 40 39 92 22 35 91 182 55 65 6 8 37 76 38 4 275 77 5 52 274 54 3 57 49 10 78 16 51 13 7 25 48 21 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 273 274 92 15 69 21 24 76 51 55 65 182 40 23 31 77 49 9 79 32 91 39 35 8 4 276 3 78 7 22 6 37 38 275 5 52 54 57 10 16 13 25 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_fwdgt.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 184</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 228</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 138</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 52 69 79 32 31 24 273 23 15 40 39 92 22 35 91 182 55 65 6 8 37 76 38 4 275 77 5 276 274 54 3 57 49 10 78 16 51 13 7 25 48 21 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69 4 31 7 55 65 182 24 3 21 92 39 22 8 276 78 79 32 91 273 40 23 15 35 76 77 274 49 51 9 52 6 37 38 275 5 54 57 10 16 13 25 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 169</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 165</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 145</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 274 69 79 32 31 24 273 23 15 40 39 92 22 35 91 182 55 65 6 8 37 76 38 4 275 77 5 276 52 54 3 57 49 10 78 16 51 13 7 25 48 21 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40 6 79 91 31 10 69 21 23 22 5 32 273 15 35 38 54 13 24 55 65 92 182 39 37 275 52 57 16 25 274 8 76 4 77 276 3 49 78 51 7 9 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 177</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 135</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 137</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54 69 79 32 31 24 273 23 15 40 39 92 22 35 91 182 55 65 6 8 37 76 38 4 275 77 5 276 52 274 3 57 49 10 78 16 51 13 7 25 48 21 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91 79 31 32 69 40 52 21 23 37 16 273 15 35 275 57 25 24 55 65 92 182 39 22 6 38 5 54 10 13 8 76 4 77 276 274 3 49 78 51 7 9 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_misc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 178</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 140</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 69 79 32 31 24 273 23 15 40 39 92 22 35 91 182 55 65 6 8 37 76 38 4 275 77 5 276 52 274 54 3 57 49 10 78 16 51 13 25 48 21 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69 32 31 24 57 275 25 21 79 91 39 22 37 52 16 55 65 92 182 273 40 23 15 35 6 38 5 54 10 13 7 8 76 4 77 276 274 3 49 78 51 9 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_pmu.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 160</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 179</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 203</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 3 69 79 32 31 24 273 23 15 40 39 92 22 35 91 182 55 65 6 8 37 76 38 4 275 77 5 276 52 274 54 57 49 10 78 16 51 13 7 25 48 21 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69 8 31 78 55 65 182 24 276 21 92 39 22 4 3 7 79 32 91 273 40 23 15 35 76 77 274 49 51 9 6 37 38 275 5 52 54 57 10 16 13 25 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_rcu.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 172</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 121</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 208</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 69 79 32 31 24 273 23 15 40 39 92 22 35 91 182 55 65 8 37 76 38 4 275 77 5 276 52 274 54 3 57 49 10 78 16 51 13 7 25 48 21 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 10 21 55 65 182 31 22 5 69 92 24 38 54 13 79 32 91 39 37 275 52 57 16 25 273 40 23 15 35 8 76 4 77 276 274 3 49 78 51 7 9 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 186</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 109</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49 69 79 32 31 24 273 23 15 40 39 92 22 35 91 182 55 65 6 8 37 76 38 4 275 77 5 276 52 274 54 3 57 10 78 16 51 13 7 25 48 21 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 40 69 92 31 6 24 23 22 5 21 55 65 182 273 15 35 38 54 13 79 32 91 39 37 275 52 57 16 25 49 8 76 4 77 276 274 3 78 51 7 9 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_sdio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 189</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 188</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 107</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10 69 79 32 31 24 273 23 15 40 39 92 22 35 91 182 55 65 6 8 37 76 38 4 275 77 5 276 52 274 54 3 57 49 78 16 51 13 7 25 48 21 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15 92 49 273 35 21 24 77 9 69 55 65 182 40 23 31 76 274 51 79 32 91 39 22 8 4 276 3 78 7 10 6 37 38 275 5 52 54 57 16 13 25 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_spi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 187</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 136</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 206</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 69 79 32 31 24 273 23 15 40 39 92 22 35 91 182 55 65 6 8 37 76 38 4 275 77 5 276 52 274 54 3 57 49 10 16 51 13 7 25 48 21 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 24 23 4 21 92 40 31 3 69 55 65 182 273 15 35 8 276 78 79 32 91 39 22 76 77 274 49 51 9 6 37 38 275 5 52 54 57 10 16 13 25 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 191</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 217</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 207</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16 69 79 32 31 24 273 23 15 40 39 92 22 35 91 182 55 65 6 8 37 76 38 4 275 77 5 276 52 274 54 3 57 49 10 78 51 13 7 25 48 21 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32 31 51 76 21 40 274 69 79 91 24 23 77 49 9 55 65 92 182 273 15 35 8 4 276 3 78 7 16 39 22 6 37 38 275 5 52 54 57 10 13 25 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_usart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 113</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 185</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 205</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 51 69 79 32 31 24 273 23 15 40 39 92 22 35 91 182 55 65 6 8 37 76 38 4 275 77 5 276 52 274 54 3 57 49 10 78 16 13 7 25 48 21 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65 69 55 182 31 10 40 6 21 23 22 5 92 24 273 15 38 54 13 79 32 91 39 37 275 52 57 16 25 51 35 8 76 4 77 276 274 3 49 78 7 9 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_wwdgt.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 220</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 166</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 204</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 13 69 79 32 31 24 273 23 15 40 39 92 22 35 91 182 55 65 6 8 37 76 38 4 275 77 5 276 52 274 54 3 57 49 10 78 16 51 7 25 48 21 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31 69 274 55 65 182 24 76 51 21 92 39 22 77 49 9 79 32 91 273 40 23 15 35 8 4 276 3 78 7 13 6 37 38 275 5 52 54 57 10 16 25 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\CMSIS\GD\GD32F30x\Source\IAR\startup_gd32f30x_cl.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 223</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\CMSIS\GD\GD32F30x\Source\IAR\startup_gd32f30x_hd.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 227</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Firmware\CMSIS\GD\GD32F30x\Source\IAR\startup_gd32f30x_xd.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 226</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_dma.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_exti.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_exmc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_enet.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_misc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_tli.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_fmc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Utilities\gd32f450i_eval.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_ctc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_can.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_adc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\CMSIS\GD\GD32F4xx\Source\system_gd32f4xx.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_crc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\gd32f4xx_it.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_dci.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_pmu.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_rcu.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_rtc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_sdio.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_spi.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_syscfg.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_timer.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_trng.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_usart.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_wwdgt.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_fwdgt.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_gpio.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_i2c.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_ipa.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_iref.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_dac.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\Library\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_dbg.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
